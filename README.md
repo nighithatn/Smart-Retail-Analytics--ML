@@ -96,23 +96,37 @@ These improved model performance significantly.
 
 ---
 
-## 🚀 Streamlit Dashboard
+## 🖥️ Streamlit Dashboard Preview
 
-The project includes a fully interactive dashboard:
+### 🔹 Customer Input Panel
+![Dashboard Input](screenshots/dashboard.png)
 
-- 📥 User input via sidebar
-- 🔮 Real-time prediction
-- 📊 Purchase probability score
-- 📈 Business-friendly output
+---
 
-### ▶️ Run Locally
+## ⚙️ How It Works
+
+1. User enters customer details in the sidebar.
+2. Engineered features are automatically generated.
+3. A trained Random Forest model predicts:
+   - Likely Buyer (1)
+   - Unlikely Buyer (0)
+4. The dashboard displays:
+   - Prediction result
+   - Probability score
+
+---
+
+## ▶️ Run Locally
 
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
 ```
 
+Then open the local browser link shown in terminal.
+
 ---
+
 
 ## 🏗️ Project Structure
 
